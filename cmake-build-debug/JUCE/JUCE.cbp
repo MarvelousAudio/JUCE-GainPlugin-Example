@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="JUCE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\JUCE\;CMake Files\JUCE\extras\;CMake Files\JUCE\extras\Build\;CMake Files\JUCE\extras\Build\CMake\;CMake Files\JUCE\extras\Build\juceaide\;CMake Files\JUCE\modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\JUCE\;CMake Files\cmake-build-debug\JUCE\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/JUCE"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\JUCE\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\JUCE\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\JUCE\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\JUCE\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/JUCE/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\JUCE\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

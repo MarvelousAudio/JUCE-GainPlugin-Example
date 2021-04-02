@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode/resources.rc
+windows.h
+-
+

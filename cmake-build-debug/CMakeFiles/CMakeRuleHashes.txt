@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+e879b59fb3929484a3a619f82df77ba2 GainPlugin_artefacts/JuceLibraryCode/resources.rc

@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GainPluginExample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\JUCE\;CMake Files\JUCE\extras\;CMake Files\JUCE\extras\Build\;CMake Files\JUCE\extras\Build\CMake\;CMake Files\JUCE\extras\Build\juceaide\;CMake Files\JUCE\modules\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\JUCE\;CMake Files\cmake-build-debug\JUCE\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin">
+				<Option output="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/Debug/Gain Plugin Example_SharedCode.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add option="-DJUCE_SHARED_CODE=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;[M]arvelousAudio&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x4d497033"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Gain_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Gain_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin/fast">
+				<Option output="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/Debug/Gain Plugin Example_SharedCode.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add option="-DJUCE_SHARED_CODE=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;[M]arvelousAudio&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x4d497033"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Gain_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Gain_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin_Standalone">
+				<Option output="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/Debug/Standalone/Gain Plugin Example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;[M]arvelousAudio&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x4d497033"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Gain_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Gain_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin_Standalone"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin_Standalone/fast">
+				<Option output="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/Debug/Standalone/Gain Plugin Example.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;[M]arvelousAudio&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x4d497033"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Gain_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Gain_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=1"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=0"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin_Standalone/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin_All">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin_All"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 install/local"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 install"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin_VST3">
+				<Option output="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/Debug/VST3/Gain Plugin Example.vst3/Contents/x86_64-win/Gain Plugin Example.vst3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;[M]arvelousAudio&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x4d497033"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Gain_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Gain_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin_VST3"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GainPlugin_VST3/fast">
+				<Option output="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/Debug/VST3/Gain Plugin Example.vst3/Contents/x86_64-win/Gain Plugin Example.vst3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-DJUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1"/>
+					<Add option="-DDEBUG=1"/>
+					<Add option="-D_DEBUG=1"/>
+					<Add option="-DJucePlugin_IsSynth=0"/>
+					<Add option="-DJucePlugin_ManufacturerCode=0x4a756365"/>
+					<Add option="-DJucePlugin_Manufacturer=&quot;[M]arvelousAudio&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerWebsite=&quot;&quot;"/>
+					<Add option="-DJucePlugin_ManufacturerEmail=&quot;&quot;"/>
+					<Add option="-DJucePlugin_PluginCode=0x4d497033"/>
+					<Add option="-DJucePlugin_ProducesMidiOutput=0"/>
+					<Add option="-DJucePlugin_IsMidiEffect=0"/>
+					<Add option="-DJucePlugin_WantsMidiInput=0"/>
+					<Add option="-DJucePlugin_EditorRequiresKeyboardFocus=0"/>
+					<Add option="-DJucePlugin_Name=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Desc=&quot;Gain Plugin Example&quot;"/>
+					<Add option="-DJucePlugin_Version=0.0.1"/>
+					<Add option="-DJucePlugin_VersionString=&quot;0.0.1&quot;"/>
+					<Add option="-DJucePlugin_VersionCode=0x1"/>
+					<Add option="-DJucePlugin_VSTUniqueID=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_VSTCategory=kPlugCategEffect"/>
+					<Add option="-DJucePlugin_Vst3Category=&quot;Fx&quot;"/>
+					<Add option="-DJucePlugin_AUMainType=&apos;aufx&apos;"/>
+					<Add option="-DJucePlugin_AUSubType=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AUExportPrefix=Gain_Plugin_ExampleAU"/>
+					<Add option="-DJucePlugin_AUExportPrefixQuoted=&quot;Gain_Plugin_ExampleAU&quot;"/>
+					<Add option="-DJucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_CFBundleIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXIdentifier=com.[M]arvelousAudio.GainPlugin"/>
+					<Add option="-DJucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode"/>
+					<Add option="-DJucePlugin_AAXProductId=JucePlugin_PluginCode"/>
+					<Add option="-DJucePlugin_AAXCategory=0"/>
+					<Add option="-DJucePlugin_AAXDisableBypass=0"/>
+					<Add option="-DJucePlugin_AAXDisableMultiMono=0"/>
+					<Add option="-DJucePlugin_VSTNumMidiInputs=16"/>
+					<Add option="-DJucePlugin_VSTNumMidiOutputs=16"/>
+					<Add option="-DJUCE_WEB_BROWSER=0"/>
+					<Add option="-DJUCE_USE_CURL=0"/>
+					<Add option="-DJUCE_VST3_CAN_REPLACE_VST2=0"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_utils=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_processors=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_extra=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_gui_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_graphics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_events=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_core=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_data_structures=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_basics=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_formats=1"/>
+					<Add option="-DJUCE_MODULE_AVAILABLE_juce_audio_devices=1"/>
+					<Add option="-DJUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone"/>
+					<Add option="-DJucePlugin_Build_AU=0"/>
+					<Add option="-DJucePlugin_Build_AUv3=0"/>
+					<Add option="-DJucePlugin_Build_AAX=0"/>
+					<Add option="-DJucePlugin_Build_Standalone=0"/>
+					<Add option="-DJucePlugin_Build_Unity=0"/>
+					<Add option="-DJucePlugin_Build_VST=0"/>
+					<Add option="-DJucePlugin_Build_VST3=1"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules"/>
+					<Add directory="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/format_types/VST3_SDK"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 GainPlugin_VST3/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 list_install_components"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Ben Haywood\Documents\GitHub\JUCE-GainPlugin-Example\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_basics/juce_audio_basics.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_devices/juce_audio_devices.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_formats/juce_audio_formats.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_formats/juce_audio_formats.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_AAX.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_1.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_2.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_3.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_4.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_RTAS_utils.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Standalone.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_Unity.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST2.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_VST3.cpp">
+			<Option target="GainPlugin_Standalone"/>
+			<Option target="GainPlugin_VST3"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_plugin_client/juce_audio_plugin_client_utils.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/juce_audio_processors.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_processors/juce_audio_processors.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_utils/juce_audio_utils.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_audio_utils/juce_audio_utils.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_core/juce_core.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_core/juce_core.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_data_structures/juce_data_structures.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_data_structures/juce_data_structures.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_events/juce_events.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_events/juce_events.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_graphics/juce_graphics.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_graphics/juce_graphics.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_gui_basics/juce_gui_basics.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_gui_basics/juce_gui_basics.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_gui_extra/juce_gui_extra.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/juce_gui_extra/juce_gui_extra.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginEditor.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginEditor.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginProcessor.cpp">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginProcessor.h">
+			<Option target="GainPlugin"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode/resources.rc">
+			<Option target="GainPlugin_Standalone"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/GainPlugin_artefacts/JuceLibraryCode/resources.rc.rule">
+			<Option target="GainPlugin_Standalone"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCECheckAtomic.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCEConfig.cmake.in">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCEHelperTargets.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/CMake/JUCEUtils.cmake">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\CMake\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/extras/Build/juceaide/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\extras\Build\juceaide\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/JUCE/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\JUCE\modules\"/>
+		</Unit>
+		<Unit filename="C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/cmake-build-debug/JUCE/tools/JUCEToolsExport.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\JUCE\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

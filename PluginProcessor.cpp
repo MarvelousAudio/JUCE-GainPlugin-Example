@@ -15,7 +15,7 @@ AudioPluginAudioProcessor::AudioPluginAudioProcessor()
     //============================================================================================================
     //**[M]**
     //parameter--addParameter create a parameter mGainParameter gives it a ID, name, minvalue, MaxValue, defaultValue
-    addParameter(mGainParameter = new juce::AudioParameterFloat("gain", "Gain", -100.0f, 3.0f, -6.0f ));
+    addParameter(mGainParameter = new juce::AudioParameterFloat("gain", "Gain", -200.0f, 3.0f, -12.0f ));
 
     //set value for mGain
     //mGain = 0;
@@ -163,15 +163,15 @@ void AudioPluginAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer,
     //**[M}**
     //DBG(*mGainParameter);
 
-    float* channelLeft = buffer.getWritePointer(0);
-    float* channelRight = buffer.getWritePointer(1);
+    auto* channelLeft = buffer.getWritePointer(0);
+    auto* channelRight = buffer.getWritePointer(1);
 
     for (int sample = 0; sample < buffer.getNumSamples(); ++sample)
     {
 //        auto* channelData = buffer.getWritePointer (channel);
 //        juce::ignoreUnused (channelData);
 //         ..do something to the data...
-            mGain = mGain - 0.004 * (mGain - mGainParameter->get());
+            mGain = mGain - (0.004 * (mGain - mGainParameter->get()));
 
             channelLeft[sample] *= mGain;
             channelRight[sample] *= mGain;

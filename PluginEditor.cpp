@@ -20,7 +20,7 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAud
 
     *gainParameter = gain.getValue();
 
-    DBG("gainP" << *gainParameter);
+    //DBG("gainP" << *gainParameter);
     //juce::Logger::outputDebugString(std::to_string( *gainParameter));
     //std::cout << gain.getValue() << std::endl;
     //End Stuff for the back end to talk to the GUI
@@ -28,7 +28,7 @@ AudioPluginAudioProcessorEditor::AudioPluginAudioProcessorEditor (AudioPluginAud
 
     //GUI slider
     addAndMakeVisible(gain);
-    gain.setRange(gainParameter->range.start, gainParameter->range.end);
+    gain.setRange(gainParameter->range.start, gainParameter->range.end, 0.0f);
     gain.setValue(*gainParameter);
     gain.setTextBoxStyle(juce::Slider::TextBoxBelow, true, 0,0);
     //END GUI slider

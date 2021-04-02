@@ -4350,47 +4350,14 @@ CMakeFiles/GainPlugin.dir/PluginEditor.cpp.obj
  ../JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- ../JUCE/modules/juce_gui_basics/application/juce_Application.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_Button.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_TextButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.h
  ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandID.h
  ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.h
- ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.h
- ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.h
- ../JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.h
  ../JUCE/modules/juce_gui_basics/components/juce_CachedComponentImage.h
  ../JUCE/modules/juce_gui_basics/components/juce_Component.h
  ../JUCE/modules/juce_gui_basics/components/juce_ComponentListener.h
  ../JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.h
  ../JUCE/modules/juce_gui_basics/desktop/juce_Desktop.h
  ../JUCE/modules/juce_gui_basics/desktop/juce_Displays.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_Drawable.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserListener.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FilePreviewComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.h
  ../JUCE/modules/juce_gui_basics/juce_gui_basics.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.h
@@ -4400,47 +4367,12 @@ CMakeFiles/GainPlugin.dir/PluginEditor.cpp.obj
  ../JUCE/modules/juce_gui_basics/keyboard/juce_SystemClipboard.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_TextEditorKeyMapper.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_TextInputTarget.h
- ../JUCE/modules/juce_gui_basics/layout/juce_AnimatedPosition.h
- ../JUCE/modules/juce_gui_basics/layout/juce_AnimatedPositionBehaviours.h
  ../JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.h
  ../JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.h
- ../JUCE/modules/juce_gui_basics/layout/juce_FlexBox.h
- ../JUCE/modules/juce_gui_basics/layout/juce_FlexItem.h
- ../JUCE/modules/juce_gui_basics/layout/juce_Grid.h
- ../JUCE/modules/juce_gui_basics/layout/juce_GridItem.h
- ../JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.h
- ../JUCE/modules/juce_gui_basics/layout/juce_SidePanel.h
- ../JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.h
- ../JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.h
- ../JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.h
- ../JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.h
- ../JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_Viewport.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.h
- ../JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.h
- ../JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.h
- ../JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.h
- ../JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.h
- ../JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.h
- ../JUCE/modules/juce_gui_basics/misc/juce_DropShadower.h
- ../JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropTarget.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_FileDragAndDropTarget.h
- ../JUCE/modules/juce_gui_basics/mouse/juce_LassoComponent.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.h
@@ -4449,48 +4381,6 @@ CMakeFiles/GainPlugin.dir/PluginEditor.cpp.obj
  ../JUCE/modules/juce_gui_basics/mouse/juce_SelectedItemSet.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_TextDragAndDropTarget.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_TooltipClient.h
- ../JUCE/modules/juce_gui_basics/native/juce_win32_ScopedThreadDPIAwarenessSetter.h
- ../JUCE/modules/juce_gui_basics/native/x11/juce_linux_X11_Symbols.h
- ../JUCE/modules/juce_gui_basics/native/x11/juce_linux_XWindowSystem.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.h
- ../JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.h
- ../JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_Label.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ListBox.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_Slider.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemFactory.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TreeView.h
- ../JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.h
- ../JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.h
- ../JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_NativeMessageBox.h
- ../JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h
  C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginEditor.cpp
  C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginEditor.h
  C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginProcessor.h
@@ -4764,47 +4654,14 @@ CMakeFiles/GainPlugin.dir/PluginProcessor.cpp.obj
  ../JUCE/modules/juce_graphics/native/juce_win32_Direct2DGraphicsContext.h
  ../JUCE/modules/juce_graphics/placement/juce_Justification.h
  ../JUCE/modules/juce_graphics/placement/juce_RectanglePlacement.h
- ../JUCE/modules/juce_gui_basics/application/juce_Application.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ArrowButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_Button.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_DrawableButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_HyperlinkButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ImageButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ShapeButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_TextButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ToggleButton.h
- ../JUCE/modules/juce_gui_basics/buttons/juce_ToolbarButton.h
  ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandID.h
  ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandInfo.h
- ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandManager.h
- ../JUCE/modules/juce_gui_basics/commands/juce_ApplicationCommandTarget.h
- ../JUCE/modules/juce_gui_basics/commands/juce_KeyPressMappingSet.h
  ../JUCE/modules/juce_gui_basics/components/juce_CachedComponentImage.h
  ../JUCE/modules/juce_gui_basics/components/juce_Component.h
  ../JUCE/modules/juce_gui_basics/components/juce_ComponentListener.h
  ../JUCE/modules/juce_gui_basics/components/juce_ModalComponentManager.h
  ../JUCE/modules/juce_gui_basics/desktop/juce_Desktop.h
  ../JUCE/modules/juce_gui_basics/desktop/juce_Displays.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_Drawable.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableComposite.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableImage.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawablePath.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableRectangle.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableShape.h
- ../JUCE/modules/juce_gui_basics/drawables/juce_DrawableText.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_ContentSharer.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsDisplayComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_DirectoryContentsList.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileBrowserListener.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooser.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileChooserDialogBox.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileListComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FilePreviewComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileSearchPathListComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FileTreeComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_FilenameComponent.h
- ../JUCE/modules/juce_gui_basics/filebrowser/juce_ImagePreviewComponent.h
  ../JUCE/modules/juce_gui_basics/juce_gui_basics.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_CaretComponent.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_KeyListener.h
@@ -4814,47 +4671,12 @@ CMakeFiles/GainPlugin.dir/PluginProcessor.cpp.obj
  ../JUCE/modules/juce_gui_basics/keyboard/juce_SystemClipboard.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_TextEditorKeyMapper.h
  ../JUCE/modules/juce_gui_basics/keyboard/juce_TextInputTarget.h
- ../JUCE/modules/juce_gui_basics/layout/juce_AnimatedPosition.h
- ../JUCE/modules/juce_gui_basics/layout/juce_AnimatedPositionBehaviours.h
  ../JUCE/modules/juce_gui_basics/layout/juce_ComponentAnimator.h
  ../JUCE/modules/juce_gui_basics/layout/juce_ComponentBoundsConstrainer.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ComponentBuilder.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ComponentMovementWatcher.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ConcertinaPanel.h
- ../JUCE/modules/juce_gui_basics/layout/juce_FlexBox.h
- ../JUCE/modules/juce_gui_basics/layout/juce_FlexItem.h
- ../JUCE/modules/juce_gui_basics/layout/juce_Grid.h
- ../JUCE/modules/juce_gui_basics/layout/juce_GridItem.h
- ../JUCE/modules/juce_gui_basics/layout/juce_GroupComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_MultiDocumentPanel.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ResizableBorderComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ResizableCornerComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ResizableEdgeComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_ScrollBar.h
- ../JUCE/modules/juce_gui_basics/layout/juce_SidePanel.h
- ../JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutManager.h
- ../JUCE/modules/juce_gui_basics/layout/juce_StretchableLayoutResizerBar.h
- ../JUCE/modules/juce_gui_basics/layout/juce_StretchableObjectResizer.h
- ../JUCE/modules/juce_gui_basics/layout/juce_TabbedButtonBar.h
- ../JUCE/modules/juce_gui_basics/layout/juce_TabbedComponent.h
- ../JUCE/modules/juce_gui_basics/layout/juce_Viewport.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V1.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V2.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V3.h
- ../JUCE/modules/juce_gui_basics/lookandfeel/juce_LookAndFeel_V4.h
- ../JUCE/modules/juce_gui_basics/menus/juce_BurgerMenuComponent.h
- ../JUCE/modules/juce_gui_basics/menus/juce_MenuBarComponent.h
- ../JUCE/modules/juce_gui_basics/menus/juce_MenuBarModel.h
- ../JUCE/modules/juce_gui_basics/menus/juce_PopupMenu.h
- ../JUCE/modules/juce_gui_basics/misc/juce_BubbleComponent.h
- ../JUCE/modules/juce_gui_basics/misc/juce_DropShadower.h
- ../JUCE/modules/juce_gui_basics/misc/juce_JUCESplashScreen.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_ComponentDragger.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropContainer.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_DragAndDropTarget.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_FileDragAndDropTarget.h
- ../JUCE/modules/juce_gui_basics/mouse/juce_LassoComponent.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_MouseCursor.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_MouseEvent.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_MouseInactivityDetector.h
@@ -4863,48 +4685,6 @@ CMakeFiles/GainPlugin.dir/PluginProcessor.cpp.obj
  ../JUCE/modules/juce_gui_basics/mouse/juce_SelectedItemSet.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_TextDragAndDropTarget.h
  ../JUCE/modules/juce_gui_basics/mouse/juce_TooltipClient.h
- ../JUCE/modules/juce_gui_basics/native/juce_win32_ScopedThreadDPIAwarenessSetter.h
- ../JUCE/modules/juce_gui_basics/native/x11/juce_linux_X11_Symbols.h
- ../JUCE/modules/juce_gui_basics/native/x11/juce_linux_XWindowSystem.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_MarkerList.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinate.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeCoordinatePositioner.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeParallelogram.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativePoint.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativePointPath.h
- ../JUCE/modules/juce_gui_basics/positioning/juce_RelativeRectangle.h
- ../JUCE/modules/juce_gui_basics/properties/juce_BooleanPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_ButtonPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_ChoicePropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_MultiChoicePropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_PropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_PropertyPanel.h
- ../JUCE/modules/juce_gui_basics/properties/juce_SliderPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/properties/juce_TextPropertyComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ComboBox.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ImageComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_Label.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ListBox.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ProgressBar.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_Slider.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TableHeaderComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TableListBox.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TextEditor.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_Toolbar.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemComponent.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemFactory.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_ToolbarItemPalette.h
- ../JUCE/modules/juce_gui_basics/widgets/juce_TreeView.h
- ../JUCE/modules/juce_gui_basics/windows/juce_AlertWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_CallOutBox.h
- ../JUCE/modules/juce_gui_basics/windows/juce_ComponentPeer.h
- ../JUCE/modules/juce_gui_basics/windows/juce_DialogWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_DocumentWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_NativeMessageBox.h
- ../JUCE/modules/juce_gui_basics/windows/juce_ResizableWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_ThreadWithProgressWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_TooltipWindow.h
- ../JUCE/modules/juce_gui_basics/windows/juce_TopLevelWindow.h
  C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginEditor.h
  C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginProcessor.cpp
  C:/Users/Ben Haywood/Documents/GitHub/JUCE-GainPlugin-Example/PluginProcessor.h
